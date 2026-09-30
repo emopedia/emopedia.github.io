@@ -5,16 +5,29 @@ remote_theme: just-the-docs/just-the-docs@v0.12.0
 
 search_enabled: true
 heading_anchors: true
+nav_sort: case_insensitive
+
+color_scheme: dark
+
+back_to_top: true
+back_to_top_text: "Back to top"
 
 aux_links:
-  "emopedia on GitHub":
+  "GitHub":
     - "https://github.com/emopedia"
 
 aux_links_new_tab: true
 
-color_scheme: light
+collections_dir: plugins
 
-nav_sort: case_insensitive
+collections:
+  nurobots:
+    output: true
+    permalink: "/:collection/:path/"
 
-back_to_top: true
-back_to_top_text: "Back to top"
+
+just_the_docs:
+  collections:
+    nurobots:
+      name: NuRobots
+      nav_fold: true
