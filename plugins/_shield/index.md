@@ -6,6 +6,8 @@ permalink: /plugins/shield/
 
 # Shield
 
-### Java and Bedrock cloud-based anticheat
+### Cloud-powered anticheat for Java & Bedrock
 
-Shield is one of the only Minecraft anticheats that supports both Java and Bedrock players with checks in the cloud to ensure maximum performance for your players.
+Shield is a modern Minecraft anticheat built to protect servers supporting both **Java Edition** and **Bedrock Edition** players.
+
+Unlike anticheats that exclude or bypass Bedrock players, **Shield actively checks Bedrock players as well**. Bedrock players aren't simply ignored by the anticheat.
