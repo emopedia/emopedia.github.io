@@ -5,6 +5,18 @@ nav_order: 1
 
 # NuRobots
 
-Welcome to the NuRobots documentation.
+### The ultimate robot system for Minecraft servers.
 
-This is a test page.
+NuRobots is an automation and progression plugin that allows players to deploy robots that automatically perform configured tasks and gather resources.
+
+## Documentation
+
+Use the navigation menu to find everything you need to configure and operate NuRobots.
+
+- Installation
+- Configuration
+- Commands
+- Permissions
+- Placeholders
+- Integrations
+- Troubleshooting
