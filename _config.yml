@@ -39,3 +39,10 @@ just_the_docs:
     nurobots:
       name: NuRobots
       nav_fold: true
+
+defaults:
+  - scope:
+      path: ""
+      type: nurobots
+    values:
+      layout: default
