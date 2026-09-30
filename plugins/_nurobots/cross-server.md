@@ -57,4 +57,4 @@ SQLite can't be shared between servers, so Redis stays off while SQLite is in us
 
 ## Moving from SQLite
 
-NuRobots doesn't copy data between databases for you. If you switch a single server from SQLite to MySQL, existing robots stay in the old `nurobots.db`.
+NuRobots doesn't copy data between databases for you. If you switch a single server from SQLite to MySQL, existing robots stay in the old `nurobots.db`. Migration from SQLite to MySQL may be implemented in the future.
