@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nurobots",
+    "module": "nurobots-api",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "nurobots-api-1.0.0.jar",
+          "url": "nurobots-api-1.0.0.jar",
+          "size": 25399,
+          "sha512": "808a27350b971dc39e5c26881a48ceb4daacd076c2bdd00bcd754f7fd28aa7b3a41a4c5e3462997ca80548497913479c7a540810ea462e102e366ba63d03d19f",
+          "sha256": "463c8ffbbf2e2e7c7c9fce69d0a4bbdd85afa42fcad9736b1b632b92c9afa5cb",
+          "sha1": "54f04e350a138af542cc3f52fc0ee2da988fdcea",
+          "md5": "d060eca71c3f3032b4a65c61952c50a8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nurobots-api-1.0.0.jar",
+          "url": "nurobots-api-1.0.0.jar",
+          "size": 25399,
+          "sha512": "808a27350b971dc39e5c26881a48ceb4daacd076c2bdd00bcd754f7fd28aa7b3a41a4c5e3462997ca80548497913479c7a540810ea462e102e366ba63d03d19f",
+          "sha256": "463c8ffbbf2e2e7c7c9fce69d0a4bbdd85afa42fcad9736b1b632b92c9afa5cb",
+          "sha1": "54f04e350a138af542cc3f52fc0ee2da988fdcea",
+          "md5": "d060eca71c3f3032b4a65c61952c50a8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nurobots-api-1.0.0-sources.jar",
+          "url": "nurobots-api-1.0.0-sources.jar",
+          "size": 14099,
+          "sha512": "6916a0a0139c1433fa1b361a46a08f9fc306ca510cf57325dd490b9212a9e1412fa3ead806e35194d011bf58ccb872c69795d5109c1d10ed65c04601ae01ff15",
+          "sha256": "d27c67c7f15f14cf586a583dfd5bc9d9bde01e454513c01649a706c99e78694b",
+          "sha1": "ddea216eb796078db1b225b0093c48b3ff19a2ed",
+          "md5": "851e1d83396d9e4983e4d58c7e1dd43c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nurobots-api-1.0.0-javadoc.jar",
+          "url": "nurobots-api-1.0.0-javadoc.jar",
+          "size": 187503,
+          "sha512": "f16fd129f78baa1af2c33f7023ff696a043d20533abc026282bc494c886620e16fd5ecc49f15020e73baf7762d9802a59a6edcd02ce2252975d2a354c97300c8",
+          "sha256": "db1c55fe01f8bd812187ee9a641f6bca4940d679b91740a074f1e133b4de5095",
+          "sha1": "5a246186729b35990478f0b38f2182843707ba6a",
+          "md5": "335e8fc11739f73507262a52707f69d5"
+        }
+      ]
+    }
+  ]
+}
