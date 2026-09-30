@@ -32,6 +32,9 @@ collections:
   nurobots:
     output: true
     permalink: "/plugins/:collection/:path/"
+  shield:
+    output: true
+    permalink: "/plugins/:collection/:path/"
 
 
 just_the_docs:
@@ -39,10 +42,18 @@ just_the_docs:
     nurobots:
       name: NuRobots
       nav_fold: true
+    shield:
+      name: Shield
+      nav_fold: true
 
 defaults:
   - scope:
       path: ""
       type: nurobots
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: shield
     values:
       layout: default
