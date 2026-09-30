@@ -5,13 +5,53 @@ nav_order: 10
 
 # Developer API
 
-NuRobots has a small API for other plugins, in the `com.nurobots.api` package. Ask for the `nurobots-api` jar, or build it from source, and add it as a compile-only dependency:
+NuRobots has a small API for other plugins, in the `com.nurobots.api` package. It's published to a Maven repository with sources and javadoc included.
+
+Gradle (Kotlin):
 
 ```kotlin
+repositories {
+    maven("https://emopedia.github.io/maven/")
+}
+
 dependencies {
-    compileOnly(files("libs/nurobots-api-1.0.0.jar"))
+    compileOnly("com.nurobots:nurobots-api:1.0.0")
 }
 ```
+
+Gradle (Groovy):
+
+```groovy
+repositories {
+    maven { url = "https://emopedia.github.io/maven/" }
+}
+
+dependencies {
+    compileOnly "com.nurobots:nurobots-api:1.0.0"
+}
+```
+
+Maven:
+
+```xml
+<repositories>
+    <repository>
+        <id>emopedia</id>
+        <url>https://emopedia.github.io/maven/</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.nurobots</groupId>
+        <artifactId>nurobots-api</artifactId>
+        <version>1.0.0</version>
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
+```
+
+Always use `compileOnly` or `provided`. NuRobots provides the API at runtime, so never shade it into your plugin.
 
 Then declare NuRobots in your `paper-plugin.yml` so it loads first:
 
