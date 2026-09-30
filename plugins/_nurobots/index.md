@@ -9,7 +9,7 @@ permalink: /plugins/nurobots/
 ### Automate the boring stuff.
 
 {: .note }
-> This documentation was written with the help of AI and reviewed by the NuRobots developer. If something here doesn't match what you see in game, please let us know.
+> This documentation was written with the help of AI and reviewed by the NuRobots developer because frankly I cannot stand the mindnumbing work of writing documentation lol. If something here doesn't match what you see in game, please let us know.
 
 NuRobots adds robots that work for your players. They mine, farm, chop trees, fish, hunt, ranch and collect items, level up, learn skills and keep working while their owner is offline. Everything from what a robot drops to what it looks like is set in config.
 
