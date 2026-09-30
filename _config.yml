@@ -18,12 +18,20 @@ aux_links:
 
 aux_links_new_tab: true
 
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: red
+
 collections_dir: plugins
 
 collections:
   nurobots:
     output: true
-    permalink: "/:collection/:path/"
+    permalink: "/plugins/:collection/:path/"
 
 
 just_the_docs:
